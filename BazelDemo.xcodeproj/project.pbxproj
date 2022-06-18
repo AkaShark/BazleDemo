@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		239A367A2E5FD79B0F3FD50F /* Pods_BazelDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09389BC2DF43AA720DCC36A5 /* Pods_BazelDemo.framework */; };
 		2B2D8775285B0C5800FB764B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D8774285B0C5800FB764B /* AppDelegate.m */; };
 		2B2D8778285B0C5800FB764B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D8777285B0C5800FB764B /* SceneDelegate.m */; };
 		2B2D877B285B0C5800FB764B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D877A285B0C5800FB764B /* ViewController.m */; };
@@ -17,6 +18,8 @@
 		2B2D8790285B0C5B00FB764B /* BazelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D878F285B0C5B00FB764B /* BazelDemoTests.m */; };
 		2B2D879A285B0C5B00FB764B /* BazelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D8799285B0C5B00FB764B /* BazelDemoUITests.m */; };
 		2B2D879C285B0C5B00FB764B /* BazelDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D879B285B0C5B00FB764B /* BazelDemoUITestsLaunchTests.m */; };
+		556AF30AC97C4547609F9C4D /* Pods_BazelDemo_BazelDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F887511AF2B5B89DDD7D87EC /* Pods_BazelDemo_BazelDemoUITests.framework */; };
+		FA9D1A4E35B812A841B0BD51 /* Pods_BazelDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC81BB1620EEED6EA6CDD60A /* Pods_BazelDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		027242A551DD02DDBC5ACB31 /* Pods-BazelDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BazelDemoTests.release.xcconfig"; path = "Target Support Files/Pods-BazelDemoTests/Pods-BazelDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		09389BC2DF43AA720DCC36A5 /* Pods_BazelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BazelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BAE77146C25168F24CA411 /* Pods-BazelDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BazelDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-BazelDemoTests/Pods-BazelDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B2D8770285B0C5800FB764B /* BazelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BazelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2D8773285B0C5800FB764B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B2D8774285B0C5800FB764B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +60,12 @@
 		2B2D8795285B0C5B00FB764B /* BazelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BazelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2D8799285B0C5B00FB764B /* BazelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BazelDemoUITests.m; sourceTree = "<group>"; };
 		2B2D879B285B0C5B00FB764B /* BazelDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BazelDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A28A831DB9247AA7AA85ADB9 /* Pods-BazelDemo-BazelDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BazelDemo-BazelDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-BazelDemo-BazelDemoUITests/Pods-BazelDemo-BazelDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC12B0651F43810D765B1EFD /* Pods-BazelDemo-BazelDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BazelDemo-BazelDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-BazelDemo-BazelDemoUITests/Pods-BazelDemo-BazelDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B65B5B74976740077B801678 /* Pods-BazelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BazelDemo.debug.xcconfig"; path = "Target Support Files/Pods-BazelDemo/Pods-BazelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B895C1986E7751EC8B1052 /* Pods-BazelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BazelDemo.release.xcconfig"; path = "Target Support Files/Pods-BazelDemo/Pods-BazelDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DC81BB1620EEED6EA6CDD60A /* Pods_BazelDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BazelDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F887511AF2B5B89DDD7D87EC /* Pods_BazelDemo_BazelDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BazelDemo_BazelDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239A367A2E5FD79B0F3FD50F /* Pods_BazelDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9D1A4E35B812A841B0BD51 /* Pods_BazelDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556AF30AC97C4547609F9C4D /* Pods_BazelDemo_BazelDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,8 @@
 				2B2D878E285B0C5B00FB764B /* BazelDemoTests */,
 				2B2D8798285B0C5B00FB764B /* BazelDemoUITests */,
 				2B2D8771285B0C5800FB764B /* Products */,
+				B97C18D80E7A10B55050A54B /* Pods */,
+				F57086C42E8B51F7D12E112F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +153,30 @@
 			path = BazelDemoUITests;
 			sourceTree = "<group>";
 		};
+		B97C18D80E7A10B55050A54B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5B74976740077B801678 /* Pods-BazelDemo.debug.xcconfig */,
+				D6B895C1986E7751EC8B1052 /* Pods-BazelDemo.release.xcconfig */,
+				AC12B0651F43810D765B1EFD /* Pods-BazelDemo-BazelDemoUITests.debug.xcconfig */,
+				A28A831DB9247AA7AA85ADB9 /* Pods-BazelDemo-BazelDemoUITests.release.xcconfig */,
+				12BAE77146C25168F24CA411 /* Pods-BazelDemoTests.debug.xcconfig */,
+				027242A551DD02DDBC5ACB31 /* Pods-BazelDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F57086C42E8B51F7D12E112F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09389BC2DF43AA720DCC36A5 /* Pods_BazelDemo.framework */,
+				F887511AF2B5B89DDD7D87EC /* Pods_BazelDemo_BazelDemoUITests.framework */,
+				DC81BB1620EEED6EA6CDD60A /* Pods_BazelDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B2D879F285B0C5B00FB764B /* Build configuration list for PBXNativeTarget "BazelDemo" */;
 			buildPhases = (
+				F54AD30322CED7632569EA23 /* [CP] Check Pods Manifest.lock */,
 				2B2D876C285B0C5800FB764B /* Sources */,
 				2B2D876D285B0C5800FB764B /* Frameworks */,
 				2B2D876E285B0C5800FB764B /* Resources */,
+				F5857098D4EF4A552CADD10D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B2D87A2285B0C5B00FB764B /* Build configuration list for PBXNativeTarget "BazelDemoTests" */;
 			buildPhases = (
+				29AC970A4466BE0A42D07F87 /* [CP] Check Pods Manifest.lock */,
 				2B2D8787285B0C5B00FB764B /* Sources */,
 				2B2D8788285B0C5B00FB764B /* Frameworks */,
 				2B2D8789285B0C5B00FB764B /* Resources */,
@@ -178,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B2D87A5285B0C5B00FB764B /* Build configuration list for PBXNativeTarget "BazelDemoUITests" */;
 			buildPhases = (
+				2C67D9C2FC6BE68C4BE70D44 /* [CP] Check Pods Manifest.lock */,
 				2B2D8791285B0C5B00FB764B /* Sources */,
 				2B2D8792285B0C5B00FB764B /* Frameworks */,
 				2B2D8793285B0C5B00FB764B /* Resources */,
+				2625C36528192A56EA124BBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +306,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2625C36528192A56EA124BBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BazelDemo-BazelDemoUITests/Pods-BazelDemo-BazelDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BazelDemo-BazelDemoUITests/Pods-BazelDemo-BazelDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BazelDemo-BazelDemoUITests/Pods-BazelDemo-BazelDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29AC970A4466BE0A42D07F87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BazelDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C67D9C2FC6BE68C4BE70D44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BazelDemo-BazelDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F54AD30322CED7632569EA23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BazelDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5857098D4EF4A552CADD10D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BazelDemo/Pods-BazelDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BazelDemo/Pods-BazelDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BazelDemo/Pods-BazelDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B2D876C285B0C5800FB764B /* Sources */ = {
@@ -437,6 +586,7 @@
 		};
 		2B2D87A0285B0C5B00FB764B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65B5B74976740077B801678 /* Pods-BazelDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +614,7 @@
 		};
 		2B2D87A1285B0C5B00FB764B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B895C1986E7751EC8B1052 /* Pods-BazelDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +642,7 @@
 		};
 		2B2D87A3285B0C5B00FB764B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12BAE77146C25168F24CA411 /* Pods-BazelDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +661,7 @@
 		};
 		2B2D87A4285B0C5B00FB764B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027242A551DD02DDBC5ACB31 /* Pods-BazelDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +680,7 @@
 		};
 		2B2D87A6285B0C5B00FB764B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC12B0651F43810D765B1EFD /* Pods-BazelDemo-BazelDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -543,6 +697,7 @@
 		};
 		2B2D87A7285B0C5B00FB764B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28A831DB9247AA7AA85ADB9 /* Pods-BazelDemo-BazelDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
